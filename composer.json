@@ -1,0 +1,6 @@
+{
+    "require": {
+        "twilio/sdk": "^8.5",
+        "fpdf/fpdf": "^1.86"
+    }
+}

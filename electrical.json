@@ -1,0 +1,110 @@
+[
+    {
+        "id": "6813bf1bcf4ca",
+        "name": "refrigerator",
+        "price": 14999,
+        "category": "Electrical",
+        "details": "19% off",
+        "image": "uploads\/6813bf1bcf3fd.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:36:11",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813bfb99f8a0",
+        "name": "Indoor AC",
+        "price": 22999,
+        "category": "Electrical",
+        "details": "sumsung 23% off",
+        "image": "uploads\/6813bfb99f76c.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:38:49",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813c02576221",
+        "name": "hp-amd ryzen5",
+        "price": 42000,
+        "category": "Electrical",
+        "details": "11% off",
+        "image": "uploads\/6813c025760fa.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:40:37",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813c05c8255e",
+        "name": "cooler",
+        "price": 10099,
+        "category": "Electrical",
+        "details": "34% off",
+        "image": "uploads\/6813c05c823d2.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:41:32",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813c086efb0f",
+        "name": "monitor",
+        "price": 12049,
+        "category": "Electrical",
+        "details": "16% off",
+        "image": "uploads\/6813c086ef9d8.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:42:14",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813c0cee8b4a",
+        "name": "Induction",
+        "price": 2999,
+        "category": "Electrical",
+        "details": "12% OFF",
+        "image": "uploads\/6813c0cee8993.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:43:26",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813c1336afa3",
+        "name": "COOLER",
+        "price": 21099,
+        "category": "Electrical",
+        "details": "AIR CONDITIONING",
+        "image": "uploads\/6813c1336aeae.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:45:07",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813c18837399",
+        "name": "FREEZE",
+        "price": 14000,
+        "category": "Electrical",
+        "details": "20 YR. WARRANTY",
+        "image": "uploads\/6813c18837207.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:46:32",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "681468afe48ff",
+        "name": "FRIDGE",
+        "price": 252,
+        "category": "Electrical",
+        "details": "FRIDGE",
+        "image": "uploads\/681468afe47bb.png",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-02 08:39:43",
+        "latitude": 26.4499294,
+        "longitude": 80.1926938
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "id": "6813bccfc1402",
+        "name": "vaporub",
+        "price": 119,
+        "category": "Medicine",
+        "details": "vics",
+        "image": "uploads\/6813bccfc1295.jpeg",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:26:23",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813bd6dc2204",
+        "name": "nerve care",
+        "price": 199,
+        "category": "Medicine",
+        "details": "madicine",
+        "image": "uploads\/6813bd6dc20c4.jpeg",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:29:01",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813bda7ef318",
+        "name": "silajeet",
+        "price": 209,
+        "category": "Medicine",
+        "details": "medicine",
+        "image": "uploads\/6813bda7ef1e0.jpeg",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:29:59",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813bdde8c96b",
+        "name": "paracip-500",
+        "price": 200,
+        "category": "Medicine",
+        "details": "tablet",
+        "image": "uploads\/6813bdde8c853.jpeg",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:30:54",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813be1803805",
+        "name": "voltarene",
+        "price": 59,
+        "category": "Medicine",
+        "details": "tube",
+        "image": "uploads\/6813be1803744.jpeg",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:31:52",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813be553de2e",
+        "name": "amoxicillian",
+        "price": 319,
+        "category": "Medicine",
+        "details": "capsules",
+        "image": "uploads\/6813be553dd4d.jpeg",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:34:41",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    },
+    {
+        "id": "6813bec19a74a",
+        "name": "boxdela",
+        "price": 499,
+        "category": "Medicine",
+        "details": "25% off",
+        "image": "uploads\/6813bec19a5c8.jpeg",
+        "owner": "shop@1.com",
+        "created_at": "2025-05-01 20:34:41",
+        "latitude": 26.4475588,
+        "longitude": 80.198654
+    }
+]

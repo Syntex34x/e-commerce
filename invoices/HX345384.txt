@@ -1,0 +1,10 @@
+Hexshop Invoice
+Order #: HX345384
+Name: Badri Vishal
+Email: 
+Payment: Cash on Delivery
+Date: 2025-04-13 14:26:57
+Delivery: within 2–3 hours
+Products:
+ - Women's Floral Dress (x)
+Total: ₹0.00

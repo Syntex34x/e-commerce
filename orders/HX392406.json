@@ -1,0 +1,16 @@
+{
+    "order_no": "HX392406",
+    "products": [
+        "Badri Vishal (x2)",
+        "vishal (x1)"
+    ],
+    "amount": 1715,
+    "shipping": {
+        "name": "Badri Vishal",
+        "address": "Lucknow",
+        "pincode": "226301",
+        "mobile": "9026559040"
+    },
+    "date": "2025-04-10 20:35:41",
+    "delivery": "April 15, 2025"
+}

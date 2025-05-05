@@ -495,21 +495,31 @@ a:-webkit-any-link {
                     displayMessage("You can type 'Order' to track your order, 'Complaint' to report an issue, or 'Product' to inquire about our products.", 'bot');
                 }
                 break;
-            case 2:
-                userInput.orderId = message;
-                userProfile = orders.find(order => order.id === userInput.orderId);
-                if (userProfile) {
-                    displayMessage(`You have purchased ${userProfile.products.join(', ')}.`, 'bot');
-                    displayMessage("What would you like to do next?", 'bot');
-                    displayMessage("1. Track the Order", 'bot');
-                    displayMessage("2. Report an issue", 'bot');
-                    displayMessage("3. Ask about product", 'bot');
-                    stage = 3;
-                } else {
-                    displayMessage("Sorry, we couldn't find your order. Please check the ID and try again.", 'bot');
-                    stage = 2;
-                }
-                break;
+           case 2:
+    userInput.orderId = message;
+    fetch('orders.json')
+        .then(response => response.json())
+        .then(data => {
+            userProfile = data.find(order => order.id === userInput.orderId);
+            if (userProfile) {
+                displayMessage(`You have purchased ${userProfile.products.join(', ')}.`, 'bot');
+                displayMessage("What would you like to do next?", 'bot');
+                displayMessage("1. Track the Order", 'bot');
+                displayMessage("2. Report an issue", 'bot');
+                displayMessage("3. Ask about product", 'bot');
+                stage = 3;
+            } else {
+                displayMessage("Sorry, we couldn't find your order. Please check the ID and try again.", 'bot');
+                stage = 2;
+            }
+        })
+        .catch(error => {
+            console.error('Error loading orders:', error);
+            displayMessage("There was an error retrieving your order. Please try again later.", 'bot');
+            stage = 2;
+        });
+    break;
+
             case 3:
                 if (message === "1") {
                     displayMessage(`Your order ${userInput.orderId} is ${userProfile.status}.`, 'bot');

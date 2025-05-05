@@ -39,5 +39,11 @@
         "username": "admin@example.com",
         "password": "$2y$10$HIOf9fnyzaKNTnZhaMLDHOBFyUdayK.HbQBTY4E0\/u7nk1PkOGGMW",
         "role": "user"
+    },
+    {
+        "name": "sundaram bajpai",
+        "username": "sundaram@gmail.com",
+        "password": "$2y$10$ySksi2Kg7cKPfEqbnvvw.OvSlrBAw7YBj35HY\/SC5USbLLVnVbdQS",
+        "role": "user"
     }
 ]

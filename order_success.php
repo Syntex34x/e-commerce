@@ -156,6 +156,7 @@ include 'header.php';
     <div class="order-details">
         <p><strong>Order Number:</strong> <?= $order_no ?></p>
         <p><strong>Date:</strong> <?= date("F j, Y, g:i A", strtotime($orderData['date'])) ?></p>
+        <p><strong>Current Time:</strong> <span id="time"></span></p>
         <p><strong>Estimated Delivery:</strong> <?= $delivery_time ?></p>
         <p><strong>Payment Method:</strong> <?= htmlspecialchars($orderData['payment_method']) ?></p>
        <p><strong>Shop Owner:</strong></p>
@@ -174,5 +175,33 @@ include 'header.php';
     </div>
     <a href="indexs.php" class="back-btn">🛍️ Continue Shopping</a>
 </div>
+<script>
+    function showTime() {
+        let date = new Date();
+        let h = date.getHours(); // 0 - 23
+        let m = date.getMinutes(); // 0 - 59
+        let s = date.getSeconds(); // 0 - 59
+        let session = "AM";
+
+        if (h == 0) {
+            h = 12;
+        }
+
+        if (h > 12) {
+            h = h - 12;
+            session = "PM";
+        }
+
+        h = (h < 10) ? "0" + h : h;
+        m = (m < 10) ? "0" + m : m;
+        s = (s < 10) ? "0" + s : s;
+
+        let time = h + ":" + m + ":" + s + " " + session;
+        document.getElementById("time").innerText = time;
+        setTimeout(showTime, 1000);
+    }
+
+    showTime();
+</script>
 </body>
 </html>
